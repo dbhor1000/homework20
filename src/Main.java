@@ -112,11 +112,11 @@ public class Main {
 
         Mechanic mechanic1 = new Mechanic("Алексей Петрович", "Автомобильная компания 1", false, true, true);
         Mechanic mechanic2 = new Mechanic("Антон Игнатьевич", "Автомобильная компания 1", false, true, true);
-        Mechanic mechanic3 = new Mechanic("Владимир Ильич", "Автомобильная компания 1", false, true, true);
-        Mechanic mechanic4 = new Mechanic("Владимир Ильич", "Автомобильная компания 2", true, false, true);
-        Mechanic mechanic5 = new Mechanic("Владимир Ильич", "Автомобильная компания 2", false, false, true);
-        Mechanic mechanic6 = new Mechanic("Владимир Ильич", "Автомобильная компания 2", true, true, true);
-        Mechanic mechanic7 = new Mechanic("Владимир Ильич", "Автомобильная компания 2", false, true, true);
+        Mechanic mechanic3 = new Mechanic("Сергей Иванович", "Автомобильная компания 1", false, true, true);
+        Mechanic mechanic4 = new Mechanic("Иван Евгеньевич", "Автомобильная компания 2", true, false, true);
+        Mechanic mechanic5 = new Mechanic("Артур Денисович", "Автомобильная компания 2", false, false, true);
+        Mechanic mechanic6 = new Mechanic("Денис Артурович", "Автомобильная компания 2", true, true, true);
+        Mechanic mechanic7 = new Mechanic("Дмитрий Борисович", "Автомобильная компания 2", false, true, true);
 
         mechanic1.engageTechnicalService(car1, mechanic1);  //Этот механик не работает с автомобилями
         mechanic2.engageRepair(truck1, mechanic2); //Механик чинит грузовик
